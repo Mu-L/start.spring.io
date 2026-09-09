@@ -1358,8 +1358,8 @@ initializr:
         - name: Embedded LDAP Server
           id: unboundid-ldap
           description: Provides a platform neutral way for running a LDAP server in unit tests.
-          groupId: org.springframework.boot
-          artifactId: spring-boot-starter-ldap
+          groupId: com.unboundid
+          artifactId: unboundid-ldapsdk
           scope: test
           links:
             - rel: reference

@@ -1360,6 +1360,7 @@ initializr:
           description: Provides a platform neutral way for running a LDAP server in unit tests.
           groupId: com.unboundid
           artifactId: unboundid-ldapsdk
+          starter: false
           scope: test
           links:
             - rel: reference
